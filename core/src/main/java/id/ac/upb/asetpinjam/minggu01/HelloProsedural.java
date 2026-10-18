@@ -2,18 +2,18 @@ package id.ac.upb.asetpinjam.minggu01;
 
 import id.ac.upb.asetpinjam.config.Varian;
 
-/** Minggu 1, gaya PROSEDURAL: hanya fungsi statis dan data primitif, tanpa objek buatan sendiri. */
+/**
+ * Minggu 1, gaya PROSEDURAL: menggunakan fungsi statis.
+ */
 public final class HelloProsedural {
 
     private HelloProsedural() {
     }
 
-    /**
-     * TODO minggu 1: kembalikan sapaan yang memuat kata "Aset-Pinjam", nama, dan NIM.
-     * Contoh bentuk: "Hello Aset-Pinjam, saya Budi (2310112345)".
-     */
     public static String sapa(String nama, String nim) {
-        throw new UnsupportedOperationException("TODO minggu 1: HelloProsedural.sapa");
+        return "Halo " + nama
+                + ", NIM " + nim
+                + " dari Aset-Pinjam";
     }
 
     public static void main(String[] args) {
